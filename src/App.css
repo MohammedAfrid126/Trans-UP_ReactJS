@@ -1,38 +1,144 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  background-color: #2b2b2b;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navBar{
+  height: 70px;
+  background-color: #1b1b1b;;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.logoContainer{
+  display: flex;
+  align-items: center;
+}
+
+.logoContainer div{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+
+.logoContainer img{
+  padding: 10px;
+  height: 40px;
+  width: 60px;
+  display: flex;
+}
+
+.search input{
+  margin: 5px;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container div{
+  padding: 10px;
+  margin: 10px;
+}
+
+.langContainer{
+  width: 66%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.langContainer select{
+  background-color: #cbcbcb;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.textContainer{
+  margin-top: 2%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textContainer textarea{
+  border-radius: 10px;
+  background-color: #cbcbcb;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.textContainer i{
+  margin: 10px;
+  padding: 10px;
+}
+
+.buttonContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  background-color: aliceblue;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btnTranslate{
+  margin: 5px;
+  padding: 5px;
+  border-radius: 20px;
+  width: 40%;
+  height: 40%;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+@media screen and (max-width:1940px) {
+  .textContainer textarea{
+    height: 80%;
+    width: 80%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width:1420px) {
+  .textContainer textarea{
+    height: 60%;
+    width: 60%;
+  }
+  .btnTranslate{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .langContainer{
+    flex-direction: column;
+    width: 90%;
+  }
+  .search{
+    display: none;
+  }
+  .textContainer{
+    flex-direction: column;
+  }
+  .btnTranslate{
+    font-size: 20px;
   }
 }
