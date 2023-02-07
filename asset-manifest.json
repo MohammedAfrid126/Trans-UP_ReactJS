@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Trans-UP_ReactJS/static/css/main.eef701b4.css",
+    "main.js": "/Trans-UP_ReactJS/static/js/main.c97538ca.js",
+    "static/js/787.fc692e31.chunk.js": "/Trans-UP_ReactJS/static/js/787.fc692e31.chunk.js",
+    "index.html": "/Trans-UP_ReactJS/index.html",
+    "main.eef701b4.css.map": "/Trans-UP_ReactJS/static/css/main.eef701b4.css.map",
+    "main.c97538ca.js.map": "/Trans-UP_ReactJS/static/js/main.c97538ca.js.map",
+    "787.fc692e31.chunk.js.map": "/Trans-UP_ReactJS/static/js/787.fc692e31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eef701b4.css",
+    "static/js/main.c97538ca.js"
+  ]
+}
