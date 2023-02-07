@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Web View
-![header image](https://raw.github.com/MohammedAfrid126/Trans-UP_ReactJS/WebView.jpg)
+![header image](https://raw.github.com/MohammedAfrid126/Trans-UP_ReactJS/master/WebView.jpg)
 
 ## Available Scripts
 
